@@ -1,62 +1,71 @@
 # Transform data
 
-## Processing the data 
-ingested data will be in diffrent varying formats and quality it needs to be processed for later analysis stages
+---
 
-The terms preparation, cleansing, and transforming are often used to describe actions in the processing stage. Those actions are performed using extract, transform, and load (ETL) functions. 
+## Processing the data
+Ingested data will be in different, varying formats and quality. It needs to be processed for later analysis stages.
 
-Extract: Gathering data from a variety of data sources
-Transform: Systematically changing raw data into useable formats
-Load: Moving the transformed data into data lake storage or another location
+The terms preparation, cleansing, and transforming are often used to describe actions in the processing stage. Those actions are performed using extract, transform, and load (ETL) functions.
 
-## multiple ways to transform and clean data
+* **Extract**: Gathering data from a variety of data sources.
+* **Transform**: Systematically changing raw data into usable formats.
+* **Load**: Moving the transformed data into data lake storage or another location.
 
-### bigdata processing
+---
 
-Amazon emr on ec2 clusters
+## Multiple ways to transform and clean data
 
-amazon emr sererless
+### Big data processing
 
-amazon emr on eks clusters
+* Amazon EMR on EC2 clusters
+* Amazon EMR Serverless
+* Amazon EMR on EKS clusters
 
 ### Amazon Athena
-Impromptu log analysis
+* Impromptu log analysis
+* Report generation
+* Business intelligence
 
-report generation
+### Amazon EventBridge with AWS Step Functions and Amazon Managed Workflows for Apache Airflow
+* For scheduling and orchestration
 
-business intelligence
-
-### amazon event bridge with aws step function and amazon managed workflow for apache airflow 
-for scheduling and orchestration
+---
 
 ## AWS Glue
 
-aws glue is a serverless data integration service that makes it convinent to integrate data from multiple sources.
+AWS Glue is a serverless data integration service that makes it convenient to integrate data from multiple sources.
 
-as it is serverless we dont need to proviosn or configure any infra
+As it is serverless, we don't need to provision or configure any infrastructure.
 
-aws glue is a multi-facated service and provides a wide range of features and functions for processing data
+AWS Glue is a multifaceted service and provides a wide range of features and functions for processing data.
 
-we can develop etl jobs in aws glue with visual etl notebooks script editor with sagemakerstudio and local ides in each caser we nwwd to run code in underlyinf serverless distributed spark engine
+We can develop ETL jobs in AWS Glue with visual ETL, notebooks, a script editor with SageMaker Studio, and local IDEs. In each case, we need to run code in an underlying serverless distributed Spark engine.
 
 ![AWS Glue overview](aws_data/images/glue_overview.png)
 
-## connectors
+---
 
-A connector is a pice of code that facilitates communication between aws glue and dta store
+## Connectors
 
-we can use built-i connectors or connectors offered in aws marketplace
+A connector is a piece of code that facilitates communication between AWS Glue and a data store.
+
+We can use built-in connectors or connectors offered in the AWS Marketplace.
 
 Examples of connectors include the following:
 
-Data warehouses: Amazon Redshift
-Data lakes: Amazon S3
-Relational databases: JDBC, Amazon Aurora, MariaDB, MySQL, Microsoft SQL server, Oracle Database, PostgreSQL
-Non-relational databases: Amazon DocumentDB, MongoDB, Amazon OpenSearch
-Streams: Apache Kafka, Amazon Kinesis
-Other cloud providers
+* **Data warehouses**: Amazon Redshift
+* **Data lakes**: Amazon S3
+* **Relational databases**: JDBC, Amazon Aurora, MariaDB, MySQL, Microsoft SQL Server, Oracle Database, PostgreSQL
+* **Non-relational databases**: Amazon DocumentDB, MongoDB, Amazon OpenSearch
+* **Streams**: Apache Kafka, Amazon Kinesis
+* **Other cloud providers**
+
+---
 
 ## Discovery and cataloging
-Data will likely be stored in several formats with varying quality and accessibility. After being ingested into the data lake storage, it needs to be cataloged so that it is searchable. 
+Data will likely be stored in several formats with varying quality and accessibility. After being ingested into the data lake storage, it needs to be cataloged so that it is searchable.
 
-## Glue data catalog
+---
+
+## Glue Data Catalog
+The AWS Glue Data Catalog is the central metadata repository for all data assets in the data lake. The catalog consists of a collection of tables organized within databases.
