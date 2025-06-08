@@ -9,7 +9,7 @@ We can use IAM to configure policies that allow access for IAM principals to spe
 ---
 ## Security Components of AWS
 
-![Security Components](aws_data/images/security_components_aws.png)
+![Security Components](aws_data/A_data_lake_solution/images/security_components_aws.png)
 
 ### IAM (Identity and Access Management)
 * Create and manage IAM users, groups, and roles with different levels of access.
