@@ -8,7 +8,7 @@ AWS DMS can ingest data into your AWS data lake from various data stores such as
 
 It can migrate data from database to database and from databases to other storage solutions like S3.
 
-![DMS](aws_data/A_data_lake_solution/images/dms.png)
+![DMS](images/dms.png)
 
 The source database can be located on-premises or in the cloud.
 
