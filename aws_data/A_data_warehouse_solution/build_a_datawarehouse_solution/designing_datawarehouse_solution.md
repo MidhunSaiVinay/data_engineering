@@ -16,7 +16,7 @@ the main goal of the data warehouse os to consolidate data from various sources 
 
 amazon redshift is a amazons data warehousing solution is a rbdms altough it has sma e functionality of rdbms it is highlt optimised for perfomance and reporting
 
-![data warehouse arch](aws_data/A_data_warehouse_solution/images/datawarehouse.png)
+![data warehouse arch](images/datawarehouse.png)
 
 modren data architecture combines the benifits of data lake and data warehouse architerctures and provides stragetic vision combining aws data and data analytics services into multi purpouse data processing and analytics environments
 
@@ -32,5 +32,5 @@ we cna distinguish them by compute resources , cost and storage options
 
 red shift provisioned is the traditional deployment model of amazon redshift in this we provision a cluster with specific number of nodes and each node has specific amount of compute resources such as cpu and ram and storage 
 
-![Redshift provisioned](aws_data/A_data_warehouse_solution/images/redshift_provisioned.png)
+![Redshift provisioned](images/redshift_provisioned.png)
 

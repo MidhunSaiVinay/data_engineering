@@ -41,7 +41,7 @@ AWS Glue is a multifaceted service and provides a wide range of features and fun
 
 We can develop ETL jobs in AWS Glue with visual ETL, notebooks, a script editor with SageMaker Studio, and local IDEs. In each case, we need to run code in an underlying serverless distributed Spark engine.
 
-![AWS Glue overview](aws_data/A_data_lake_solution/images/glue_overview.png)
+![AWS Glue overview](images/glue_overview.png)
 
 ---
 

@@ -35,4 +35,4 @@ To use Apache Iceberg, follow these steps:
 3.  Perform batch or streaming ingestion with Amazon EMR, AWS Glue, or Apache Flink (AWS managed). Data and metadata files are stored in Amazon S3.
 4.  Query the tables using Athena, Redshift Spectrum, or other compatible services.
 
-![iceberg](aws_data/A_data_lake_solution/images/iceberg.png)
+![iceberg](images/iceberg.png)

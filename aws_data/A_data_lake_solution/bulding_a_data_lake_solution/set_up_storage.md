@@ -1,7 +1,7 @@
 # Set up storage
 To set up storage in a data lake, we use AWS S3. An example architecture would look like this:
 
-![Example Diagram](aws_data/A_data_lake_solution/images/s3-storage_setup.png)
+![Example Diagram](images/s3-storage_setup.png)
 
 S3 full form is Simple Storage Service.
 
@@ -42,7 +42,7 @@ On S3, you pay for the data storage and data processing that you actually use, a
 
 # Data lake zones or layers
 
-![Example Diagram](aws_data/A_data_lake_solution/images/data_lake_zone.png)
+![Example Diagram](images/data_lake_zone.png)
 
 ## Landing zone
 When working with sensitive data, it is recommended to use an additional S3 bucket as a landing zone to mask the data before it is moved to the raw zone.
