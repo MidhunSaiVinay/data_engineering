@@ -33,3 +33,4 @@ we cna distinguish them by compute resources , cost and storage options
 red shift provisioned is the traditional deployment model of amazon redshift in this we provision a cluster with specific number of nodes and each node has specific amount of compute resources such as cpu and ram and storage 
 
 ![Redshift provisioned](aws_data/A_data_warehouse_solution/images/redshift_provisioned.png)
+
